@@ -14,3 +14,4 @@ KeyboardInterrupt
 hasattr
 lambda
 KeyboardInterrupt
+hasattr
