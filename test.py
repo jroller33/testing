@@ -18,3 +18,4 @@ hasattr
 or
 global
 pass
+UnboundLocalError
