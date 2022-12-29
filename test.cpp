@@ -1,6 +1,5 @@
-asdfasdlkfjaskdfnasiondfoin
+a
 
-asdf
-
-
-sssss
+__cpp_deduction_guides
+alignas
+case
