@@ -17,3 +17,4 @@ KeyboardInterrupt
 hasattr
 or
 global
+pass
