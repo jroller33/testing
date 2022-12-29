@@ -15,3 +15,5 @@ hasattr
 lambda
 KeyboardInterrupt
 hasattr
+or
+global
