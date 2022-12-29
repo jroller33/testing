@@ -12,3 +12,4 @@ hi
 
 KeyboardInterrupt
 hasattr
+lambda
