@@ -9,3 +9,6 @@ for word in words {
 }
 
 hi
+
+KeyboardInterrupt
+hasattr
