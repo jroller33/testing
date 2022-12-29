@@ -1,2 +1,2 @@
-print("hello")
-print("hello")
+word = "hello"
+print(word * 5)
