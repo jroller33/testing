@@ -7,3 +7,5 @@ words = [
 for word in words {
     print(word)
 }
+
+hi
