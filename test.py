@@ -7,5 +7,11 @@ def example1():
     print("42" + "5")
 
 # distance = 7425 miles, speed = 550 mph
-# TO DO: print out total time in hours (float)
-def 
+# print out total time in hours (float)
+def flight_time():
+    distance = 7425
+    speed = 550
+    time = float(distance / speed)
+    print(time)
+
+flight_time()
