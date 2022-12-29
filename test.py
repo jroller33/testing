@@ -1,11 +1,1 @@
-b
-and
-
-
-
-set
-
-
-def
-
-finally
+print("hello")
