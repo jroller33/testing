@@ -1,2 +1,9 @@
-word = "hello"
-print(word * 5)
+words = [
+"hello",
+"hi",
+"goodbye"
+]
+
+for word in words {
+    print(word)
+}
