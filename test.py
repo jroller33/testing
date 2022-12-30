@@ -58,3 +58,9 @@ def repeat_str():
     y = int(input())
     print(x * y)
     
+def print_area():
+    width = input()
+    height = input()
+    area = int(width) * int(height)
+    print(area // 9)
+    
