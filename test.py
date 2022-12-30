@@ -156,3 +156,17 @@ def water_boiling():
     temp = input()
     if temp > 100:
         print("Boiling")
+        
+def abc():
+    x = 'a'
+    if (x < 'c'):
+        x += 'b'
+    if (x > 'z'):
+        x += 'c'
+        
+    print(x)
+
+def kindle():
+    age = int(input())
+    if age <= 19:
+        print("Take your kindle!")
