@@ -98,3 +98,5 @@ def chess_scores():
 def bank_withdrawal():
     balance = int(input())
     withdrawal = int(input())
+    print("Your balance: " + str(balance - withdrawal))
+    
