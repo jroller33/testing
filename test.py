@@ -70,4 +70,31 @@ def in_place():
     x += 3
     print(x)
     
-in_place()
+def operators():
+    x = 9
+    x %= 2
+    x += 3
+    print(x)
+    
+def miles_to_km():
+    miles = int(input())
+    km = miles * 1.60934
+    print(km)
+    
+def country_cards():
+    country = str(input())
+    capital = str(input())
+    print(
+        "Country: " + country + "\nCapital: " + capital 
+    )
+
+def chess_scores():
+    wins = int(input())
+    ties = int(input())
+    points = wins + (ties * 0.5)
+    print(points)
+    
+    
+def bank_withdrawal():
+    balance = int(input())
+    withdrawal = int(input())
