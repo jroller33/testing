@@ -106,3 +106,21 @@ def idk():
     eggs = int(spam) + 3
     print(float(eggs))
     
+def modulo():
+    x = 3
+    num = 17
+    print(num % x)
+    
+def tip_calc():
+    bill = input()
+    tip = float(bill * 0.2)
+    print(tip)
+    
+def booleans():
+    print(2 == 3)
+    print("hello" == "hello")
+    x = 7
+    print(x != 8)
+    print(x > 5)
+    print(x >= 7)
+    
