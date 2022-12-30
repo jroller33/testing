@@ -57,3 +57,4 @@ def repeat_str():
     x = str(input())
     y = int(input())
     print(x * y)
+    
