@@ -27,7 +27,9 @@ def input_num():
 
 def name_age():
     name = input()
-    print(name)
     age = input()
-    print(age)
     print(name + " is " + age + " years old")
+
+def input_int():
+    age = int(input())
+    print(age)
