@@ -100,3 +100,9 @@ def bank_withdrawal():
     withdrawal = int(input())
     print("Your balance: " + str(balance - withdrawal))
     
+def idk():
+    spam = "7"
+    spam = spam + "0"
+    eggs = int(spam) + 3
+    print(float(eggs))
+    
