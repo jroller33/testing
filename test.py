@@ -39,3 +39,11 @@ def casting_ints():
     y = "4"
     z = int(x) + int(y)
     print(z)
+
+def cast_float():
+    height = float(input())
+    print(height)
+
+def cast_str():
+    age = 42
+    print("Age is " + str(age))
