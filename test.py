@@ -15,6 +15,7 @@ def flight_time():
     print(time)
 
 # 12/29/22
-
-
+def inputx():
+    x = input()
+    print(x)
 
