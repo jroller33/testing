@@ -152,4 +152,7 @@ def long_if():
             if num == 7:
                 print("7")
                 
-long_if()
+def water_boiling():
+    temp = input()
+    if temp > 100:
+        print("Boiling")
