@@ -64,3 +64,10 @@ def print_area():
     area = int(width) * int(height)
     print(area // 9)
     
+def in_place():
+    x = 2
+    print(x)
+    x += 3
+    print(x)
+    
+in_place()
