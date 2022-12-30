@@ -142,3 +142,14 @@ def if_stmt():
         print("Bigger than 5")
         if num <= 47:
             print("between 5 and 47")
+            
+def long_if():
+    num = 7
+    if num > 3:
+        print("3")
+        if (num < 5):
+            print("5")
+            if num == 7:
+                print("7")
+                
+long_if()
