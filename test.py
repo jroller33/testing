@@ -15,7 +15,11 @@ def flight_time():
     print(time)
 
 # 12/29/22
-def inputx():
+def input_x():
     x = input()
     print(x)
+
+def input_num():
+    number = input()
+    print("You entered: " + number)
 
