@@ -126,6 +126,13 @@ def booleans():
     print('a' > 'b')
     print("Bob" > "Dave")
     
+    y = (7 > 5)
+    print(int(y))
+    
 def tru():
     print(7 != 8)
     
+def if_stmt():
+    x = 42
+    if x > 5:
+        print("x > 5")
