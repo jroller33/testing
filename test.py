@@ -123,4 +123,9 @@ def booleans():
     print(x != 8)
     print(x > 5)
     print(x >= 7)
+    print('a' > 'b')
+    print("Bob" > "Dave")
+    
+def tru():
+    print(7 != 8)
     
