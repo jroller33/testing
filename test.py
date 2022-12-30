@@ -15,6 +15,8 @@ def flight_time():
     print(time)
 
 # 12/29/22
+
+# input() always returns a string
 def input_x():
     x = input()
     print(x)
@@ -23,3 +25,9 @@ def input_num():
     number = input()
     print("You entered: " + number)
 
+def name_age():
+    name = input()
+    print(name)
+    age = input()
+    print(age)
+    print(name + " is " + age + " years old")
