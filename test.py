@@ -52,3 +52,8 @@ def input_ints_sum():
     x = int(input())
     y = int(input())
     print(x + y)
+
+def repeat_str():
+    x = str(input())
+    y = int(input())
+    print(x * y)
