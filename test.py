@@ -33,3 +33,9 @@ def name_age():
 def input_int():
     age = int(input())
     print(age)
+
+def casting_ints():
+    x = "2"
+    y = "4"
+    z = int(x) + int(y)
+    print(z)
