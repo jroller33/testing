@@ -47,3 +47,8 @@ def cast_float():
 def cast_str():
     age = 42
     print("Age is " + str(age))
+
+def input_ints_sum():
+    x = int(input())
+    y = int(input())
+    print(x + y)
