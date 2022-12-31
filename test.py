@@ -203,6 +203,21 @@ def check_age():
     else:
         print("Sorry")
         
-def bool_and():
+def bool_operators():
     print(1 == 1 and 2 == 2) # True
     print(1 != 1 and 2 > 3) # False
+    
+    print( 2 < 1 or 3 > 6 ) # False
+    
+    print(not 1 == 1) # False
+    print(not 1 > 7) # True
+    
+def if_not_true():
+    if not True:
+        print("1")
+    elif not (1 + 1 == 3):
+        print("2")
+    else:
+        print("3")
+        
+    
