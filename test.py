@@ -170,3 +170,11 @@ def kindle():
     age = int(input())
     if age <= 19:
         print("Take your kindle!")
+        
+def else_stmt():
+    x = 4
+    if x == 5:
+        print("yes")
+    else:
+        print("no")
+        
