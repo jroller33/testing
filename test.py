@@ -225,3 +225,11 @@ def multiple_conditions():
     age = 42
     if (country == "US" or country == "GB") and (age > 0 and age < 100):
         print("Cool")
+      
+      
+def cond():
+    hour = 9
+    day = 23
+    print((hour > 12 and day <= 15) or (hour < 10))
+    
+cond()
