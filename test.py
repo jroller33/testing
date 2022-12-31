@@ -220,4 +220,8 @@ def if_not_true():
     else:
         print("3")
         
-    
+def multiple_conditions():
+    country = "US"
+    age = 42
+    if (country == "US" or country == "GB") and (age > 0 and age < 100):
+        print("Cool")
