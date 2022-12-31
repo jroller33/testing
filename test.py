@@ -232,4 +232,13 @@ def cond():
     day = 23
     print((hour > 12 and day <= 15) or (hour < 10))
     
-cond()
+def age_groups():
+    age = int(input())
+    if (0 < age <= 11):
+        print("Child")
+    elif (12 <= age <= 17):
+        print("Teen")
+    elif (18 <= age <= 64):
+        print("Adult")
+    else:
+        print("out of bounds")
