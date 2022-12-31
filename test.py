@@ -185,3 +185,24 @@ def nested_ifs():
         else:
             print("else")
         
+def elif_stmt():
+    num = 3
+    if num == 1:
+        print("one")
+    elif num == 2:
+        print("two")
+    elif num == 3:
+        print("three")
+    else:
+        print("else")
+        
+def check_age():
+    age = int(input())
+    if age >= 18:
+        print("Allowed")
+    else:
+        print("Sorry")
+        
+def bool_and():
+    print(1 == 1 and 2 == 2) # True
+    print(1 != 1 and 2 > 3) # False
