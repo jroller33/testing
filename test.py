@@ -249,4 +249,10 @@ def while_loops():
         print(i)
         i += 1
     print("finished")
-    
+
+def how_many_nums():
+    i = 1
+    while i <= 5:
+        print(i)
+        i += 1
+        
