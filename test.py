@@ -256,19 +256,6 @@ def how_many_nums():
         print(i)
         i += 1
         
-        
-# Should auld acquaintance be forgot
-# And never brought to mind?
-# Should auld acquaintance be forgot
-# And the days of auld lang syne?
-
-# For auld lang syne, my dear
-# For auld lang syne
-# We'll drink a cup of kindness yet
-# For the sake of auld lang syne
-
-# And surely you will buy your cup
-# And surely I'll buy mine!
-# We'll take a cup of kindness yet
-# For the sake of auld lang syne
-
+# 1111 GitHub Contributions!!!!!!!!!!
+# Happy New Year! 
+# 🥳🙌🎇🎆🎉🥂🍾
