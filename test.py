@@ -282,8 +282,3 @@ def how_many_nums():
 # Should old acquaintance be forgot
 # For the sake of auld lang syne?
 
-# For old acquaintance be forgot
-# And never brought to mind
-# Should old acquaintance be forgot
-# In the days of auld lang syne?
-
