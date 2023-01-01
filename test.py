@@ -276,3 +276,13 @@ def how_many_nums():
 # From morning sun till night
 # The seas between us Lord and swell
 # Since the days of auld lang syne
+
+# For old acquaintance be forgot
+# And never brought to mind
+# Should old acquaintance be forgot
+# For the sake of auld lang syne?
+
+# For old acquaintance be forgot
+# And never brought to mind
+# Should old acquaintance be forgot
+# In the days of auld lang syne?
