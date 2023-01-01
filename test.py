@@ -287,7 +287,3 @@ def how_many_nums():
 # Should old acquaintance be forgot
 # In the days of auld lang syne?
 
-# For auld lang syne, my dear
-# For auld lang syne
-# We'll drink a cup of kindness yet
-# For the sake of auld lang syne
