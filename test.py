@@ -271,3 +271,8 @@ def how_many_nums():
 # And surely I'll buy mine!
 # We'll take a cup of kindness yet
 # For the sake of auld lang syne
+
+# We two have paddled in the stream
+# From morning sun till night
+# The seas between us Lord and swell
+# Since the days of auld lang syne
