@@ -243,6 +243,3 @@ def age_groups():
     else:
         print("out of bounds")
         
-
-
-
