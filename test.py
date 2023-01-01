@@ -243,3 +243,10 @@ def age_groups():
     else:
         print("out of bounds")
         
+def while_loops():
+    i = 1
+    while i <= 5:
+        print(i)
+        i += 1
+    print("finished")
+    
