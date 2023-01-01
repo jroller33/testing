@@ -266,3 +266,8 @@ def how_many_nums():
 # For auld lang syne
 # We'll drink a cup of kindness yet
 # For the sake of auld lang syne
+
+# And surely you will buy your cup
+# And surely I'll buy mine!
+# We'll take a cup of kindness yet
+# For the sake of auld lang syne
