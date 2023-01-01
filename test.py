@@ -257,15 +257,8 @@ def how_many_nums():
         i += 1
         
         
-        
-        
-        
-        
-        
-        
-        
-    
-
-    
-        
+# Should auld acquaintance be forgot
+# And never brought to mind?
+# Should auld acquaintance be forgot
+# And the days of auld lang syne?
 
