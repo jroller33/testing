@@ -257,3 +257,14 @@ def how_many_nums():
         i += 1
         
 # first commit of 2023
+
+def if_while():
+    x = 1
+    while x < 10:
+        if x % 2 == 0:
+            print(str(x) + " is even")
+        else:
+            print(str(x) + " id odd")
+            
+        x += 1
+
