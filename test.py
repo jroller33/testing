@@ -268,3 +268,12 @@ def if_while():
             
         x += 1
 
+def print_even():
+    x = 0
+    while x <= 20:
+        if (x % 2 == 0):
+            print(x)
+        x += 1
+        
+        
+        
