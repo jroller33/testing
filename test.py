@@ -256,6 +256,4 @@ def how_many_nums():
         print(i)
         i += 1
         
-# 1111 GitHub Contributions!!!!!!!!!!
-# Happy New Year! 
-# 🥳🙌🎇🎆🎉🥂🍾
+# first commit of 2023
