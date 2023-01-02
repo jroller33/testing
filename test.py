@@ -295,3 +295,36 @@ def continues():
             continue
         print(i)
         
+def while_true():
+    i = 0
+    while True:
+        i += 1
+        if (i == 2):
+            continue
+        if (i == 5):
+            break
+        
+        print(i)
+        
+def ticketing():
+    price = 100
+    total = 0
+    pass1 = int(input())
+    pass2 = int(input())
+    pass3 = int(input())
+    pass4 = int(input())
+    pass5 = int(input())
+    if pass1 > 3:
+        total += price
+    if pass2 > 3:
+        total += price
+    if pass3 > 3:
+        total += price
+    if pass4 > 3:
+        total += price
+    if pass5 > 3:
+        total += price
+        
+    print(total)
+    
+ticketing()
