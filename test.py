@@ -275,5 +275,15 @@ def print_even():
             print(x)
         x += 1
         
+def breaks():
+    i = 0
+    while True:
+        print(i)
+        i += 1
+        if i >= 5:
+            print("Breaking")
+            break
+    
+    print("finished")
         
         
