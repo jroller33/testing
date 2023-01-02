@@ -112,7 +112,7 @@ def modulo():
     print(num % x)
     
 def tip_calc():
-    bill = input()
+    bill = int(input())
     tip = float(bill * 0.2)
     print(tip)
     
@@ -153,7 +153,7 @@ def long_if():
                 print("7")
                 
 def water_boiling():
-    temp = input()
+    temp = int(input())
     if temp > 100:
         print("Boiling")
         
