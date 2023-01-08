@@ -327,4 +327,31 @@ def ticketing():
         
     print(total)
     
-ticketing()
+    
+# lists are like arrays. indexes work the same as with arrays
+def lists():
+    a = ["this", "is", "a", "list"]
+    m = [
+        [1, 2, 3],
+        [4, 5, 6]
+    ]
+    
+    print(m[1][2])
+    
+def things():
+    things = ["text", 0, [1, 2, 8], 4.56]
+    print(things[2][2])
+    
+    
+# strings can be indexed too. spaces are a char so they have an index
+def strings():
+    str = "Hello World"
+    print(str[6])
+    
+def testprint():
+    x = "Python"
+    print(x[1] + x[4])
+    
+def third_char():
+    input = str(input())
+    print(input[2])
