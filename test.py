@@ -355,3 +355,23 @@ def testprint():
 def third_char():
     input = str(input())
     print(input[2])
+    
+def list_output():
+    x = [2, 4]
+    x = x * 3
+    print(x[3])
+    
+def in_operator():
+    # to check if item is in list, use `in` operator, returns bool
+    nums = [10, 9, 8, 7, 6, 5]
+    nums[0] = nums[1] - 5
+    if 4 in nums:
+        print(nums[3])
+    else:
+        print(nums[4])
+    
+def in_substring():
+    # `in` can be used to see if a substring is part of a string
+    x = "hello world"
+    if "world" in x:
+        print("Yes")
