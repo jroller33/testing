@@ -375,3 +375,47 @@ def in_substring():
     x = "hello world"
     if "world" in x:
         print("Yes")
+        
+def not_in_list():
+    nums = [1, 2, 3]
+    print(not 4 in nums)    # true
+    print(4 not in nums)    # true
+    print(not 3 in nums)    # false
+    print (3 not in nums)   # false
+    
+def for_loops():    
+    string = "as;dlfknawroignaw[irgn"
+    # this is like the `for ... in` loop in JS
+    for letter in string: # defines a var that takes the value of each iteration
+        print(letter)
+        
+def break_for():
+    list = [2,3,4,5,6,7]
+    for x in list:
+        if (x % 2 == 1 and x > 4):
+            print(x)
+            break
+
+# for loops - number of iterations is fixed.
+
+# while loops - num of iterations isn't known, 
+# especially if num depends on conditions 
+# inside the body of the loop
+
+def output_sum():
+    x = [42, 8, 7, 1, 0, 124, 8897, 555, 3, 67, 99]
+    sum = 0
+    for i in x:
+        sum += i
+    print(sum)
+    
+def cont():
+    nums = [1,2,3,4]
+    res = 0
+    for x in nums:
+        if (x % 2 == 0):
+            continue
+        else:
+            res += x
+    print(res)
+    
