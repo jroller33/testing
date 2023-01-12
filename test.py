@@ -476,3 +476,9 @@ def reverse_list():
     # to reverse a list, use [::-1]
     print(squares[::-1])
     
+def last_char():
+    input_list = list(str(input()))
+    rev_list = input_list[::-1]
+    print(rev_list[0])
+    
+    
