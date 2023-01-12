@@ -451,6 +451,12 @@ def for_range():
     for i in range(5):  # prints "hello" 5 times
         print("hello")
         
-
+def date_picker():
+    # output all years in a given period
+    num1 = int(input())
+    num2 = int(input())
+    output = list(range(num1, num2))
+    print(output)
+   
     
     
