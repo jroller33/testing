@@ -419,4 +419,9 @@ def cont():
             res += x
     print(res)
     
+def ranges():
+    # creates number sequences, default starts at 0, increments by 1 and ends at the number before specified num
+    # to output as a list, must convert 
+    nums = list(range(10))
+    print(nums)
     
