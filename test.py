@@ -458,5 +458,21 @@ def date_picker():
     output = list(range(num1, num2))
     print(output)
    
+squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+def slices():
+    print(squares[2:6]) # [4,9,16,25]
+    print(squares[3:8]) # [9, 16, 25, 36, 49]
+    print(squares[0:1]) # [0]
+    # slices include the first index before `:` but not the second index
+    print(squares[:2]) # [0, 1]
+    print(squares[7:]) # [49, 64, 81] goes to the end
+    print(squares[2:8:3]) # [4, 25]
+    print(squares[1::4]) # [1, 25, 81]
+    print(squares[1:-1]) # [1, 4, 9, 16, 25, 36, 49, 64]
+    print(squares[7:5:-1]) # [49, 36]
     
+def reverse_list():
+    # to reverse a list, use [::-1]
+    print(squares[::-1])
     
