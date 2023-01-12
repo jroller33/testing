@@ -435,3 +435,19 @@ def two_args():
     nums = list(range(3, 8)) # prints: [3,4,5,6,7]
     print(nums)
     
+def range_test():
+    print(range(20) == range(0, 20)) # True
+    
+def range_step():
+    # 3rd arg for range(): sets interval of sequence
+
+    numbers = list(range(5, 20, 2))
+    print(numbers) # [5,7,9,11,13,15,17,19]
+
+    neg = list(range(7, 3, -1))
+    print(neg) # [7,6,5,4]
+    
+
+
+    
+    
