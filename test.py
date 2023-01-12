@@ -425,3 +425,13 @@ def ranges():
     nums = list(range(10))
     print(nums)
     
+def test_range():
+    nums = list(range(5)) # [0,1,2,3,4]
+    print(nums[4])
+    
+def two_args():
+    # range w one arg creates an obj w values from 0 to the num.
+    # range w two args creats an obj w values from the 1st num to 2nd
+    nums = list(range(3, 8)) # prints: [3,4,5,6,7]
+    print(nums)
+    
