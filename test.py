@@ -447,7 +447,10 @@ def range_step():
     neg = list(range(7, 3, -1))
     print(neg) # [7,6,5,4]
     
-
+def for_range():
+    for i in range(5):  # prints "hello" 5 times
+        print("hello")
+        
 
     
     
