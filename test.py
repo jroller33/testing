@@ -397,6 +397,8 @@ def break_for():
             break
 
 # for loops - number of iterations is fixed.
+# !!!!!!!!!!!!!! counter variables in for loop don't need an initial value in python !!!!!!
+
 
 # while loops - num of iterations isn't known, 
 # especially if num depends on conditions 
@@ -481,5 +483,15 @@ def last_char(): # get the last character of a given string of any length
     rev_list = input_list[::-1]
     print(rev_list[0])
     
-
+def sum_consec_nums():
+    # take a number N as input
+    input1 = int(input())
+    sum = 0
+    for i in range(1, input1+1):
+        sum += i
+    
+    print(sum)
+    
+sum_consec_nums()
+    
     
