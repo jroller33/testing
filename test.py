@@ -519,4 +519,9 @@ def list_functions():
     x.remove(4) # removes `4` from list
     x.reverse() # reverses items in list
     
-list_functions()
+def queue_mgmt():
+    queue = ['Dwight', 'Jim', 'Michael', 'Pam', 'Oscar']
+    new_item = input()
+    queue.append(new_item)
+    print(queue)
+    
