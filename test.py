@@ -497,4 +497,26 @@ def reverse_string(): # a str is just a list of chars
     rev_str = input_str[::-1]
     print(rev_str)
     
+def list_functions():
+    nums = [1, 3, 5, 2, 4]
+    print(len(nums))    # 5
     
+    string = "some text"
+    print(len(string))    # 9
+    
+    x = [1, 2, 3]
+    x.append(4)
+    print(x)
+    
+    x.insert(1, 0)  # inserts a `0` at index 1
+    print(x)            # [1, 0, 2, 3, 4]
+    print(x.index(2)) # finds the first `2` in the list and returns its index
+    
+    print(min(x)) # smallest value in list: 0
+    print(max(x)) # largest value in list: 4
+    
+    print(x.count(4)) # returns how many times `4` occurs in list
+    x.remove(4) # removes `4` from list
+    x.reverse() # reverses items in list
+    
+list_functions()
