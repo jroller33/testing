@@ -485,13 +485,16 @@ def last_char(): # get the last character of a given string of any length
     
 def sum_consec_nums():
     # take a number N as input
-    input1 = int(input())
+    N = int(input())
     sum = 0
-    for i in range(1, input1+1):
+    for i in range(1, N+1): # 2nd arg in range() isn't incl, so use +1 to include it
         sum += i
     
     print(sum)
     
-sum_consec_nums()
+def reverse_string(): # a str is just a list of chars
+    input_str = input()
+    rev_str = input_str[::-1]
+    print(rev_str)
     
     
