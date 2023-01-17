@@ -535,7 +535,10 @@ def name_placehldr():
     a = "{x}, {y}".format(x=5, y=12)
     print(a)\
 
-def join_str():
+def join_str(): # joins a list of strings with another str as a separator, returns a str
+    x = ", ".join(["spam", "eggs", "ham"])
+    print(x) # "spam, eggs, ham"
     
-    
-
+def split_str():    # opposite of join(). takes a str, returns a list
+    string = "I just want to lie on the beach and eat hot dogs"
+    x = string.split(' ') # splits the str on each whitespace, returns a list
