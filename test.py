@@ -542,3 +542,12 @@ def join_str(): # joins a list of strings with another str as a separator, retur
 def split_str():    # opposite of join(). takes a str, returns a list
     string = "I just want to lie on the beach and eat hot dogs"
     x = string.split(' ') # splits the str on each whitespace, returns a list
+    
+def replace_str():
+    x = "hello ME"
+    print(x.replace("ME", "world"))
+    
+def lower_and_upper():
+    print("hello".upper())
+    print("BYE".lower())
+    
