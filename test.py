@@ -556,4 +556,8 @@ def broken_keyboard():
     msg = input()
     print(msg.replace("#", " "))
     
+def max_min():
+    msg = "hello"
+    print(max(msg)) # "o"
+    print(min(msg)) # "e"
     
