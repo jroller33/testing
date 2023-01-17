@@ -561,3 +561,17 @@ def max_min():
     print(max(msg)) # "o"
     print(min(msg)) # "e"
     
+def welcome_user():
+    name = input()
+    print(f"Welcome, {name}")   # using F string instead of the old way
+    
+def org_robot():
+    color = input()
+    if color == "red":
+        print("box #1")
+    elif color == "green":
+        print("box #2")
+    elif color == "black":
+        print("box #3")
+    else:
+        print("error")
