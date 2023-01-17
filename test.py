@@ -551,3 +551,9 @@ def lower_and_upper():
     print("hello".upper())
     print("BYE".lower())
     
+def broken_keyboard():
+    # replace all "#" with " "
+    msg = input()
+    print(msg.replace("#", " "))
+    
+    
