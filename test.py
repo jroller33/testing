@@ -617,3 +617,12 @@ def calc(x, y):
     return [x+y, x*y]
 # calcr = calc(3,4)
 # print(calcr[1])    
+
+def loop_arg(x):
+    res = 0
+    for i in range(x):  # remember range() doesn't include the upper range
+        res += i
+    return res
+# print(loop_arg(4))   # prints "6"
+
+    
