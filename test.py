@@ -575,3 +575,25 @@ def org_robot():
         print("box #3")
     else:
         print("error")
+        
+def two_args(word1, word2):
+    print(f"{word1}\n{word2}")
+# two_args(input(), input()) <-- you can pass input() as an arg   
+
+def sum(x, y):
+    return x+y  # by using return you can assign the value later on to a variable
+# sum_res = sum(42, 7)
+# print(sum_res)
+
+def return_if_cond():
+    def max(x, y):
+        if x >= y:
+            return x
+        else:
+            return y
+        
+    def if_cond():
+        if max(6, 4) > 10:  # max() is being called in the condition of the if statement
+            print("Yes")
+        else:
+            print("No")
