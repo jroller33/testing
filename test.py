@@ -585,6 +585,8 @@ def sum(x, y):
 # sum_res = sum(42, 7)
 # print(sum_res)
 
+
+# anything after return is ignored
 def return_if_cond():
     def max(x, y):
         if x >= y:
@@ -597,3 +599,21 @@ def return_if_cond():
             print("Yes")
         else:
             print("No")
+
+def shortest_string(x, y):
+    if len(x) <= len(y):
+        return x
+    else:
+        return y
+    
+def return_list():
+    def double(a, b):
+        return [a*2, b*2]
+    
+    x = double(6, 9)
+    print(x)    # [12, 18]
+    
+def calc(x, y):
+    return [x+y, x*y]
+# calcr = calc(3,4)
+# print(calcr[1])    
