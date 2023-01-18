@@ -625,4 +625,24 @@ def loop_arg(x):
     return res
 # print(loop_arg(4))   # prints "6"
 
+def open_or_closed():
+    day = int(input())
+    hour = int(input())
     
+    match day:                      # match case is like a switch statement
+        case 1 | 2 | 3 | 4 | 5:
+            
+            match hour:
+                case 1|2|3|4|5|6|7|8|9|22|23|24:
+                    print("Closed")
+                case 10|11|12|13|14|15|16|17|18|19|20|21:
+                    print("Open")
+
+
+        case 6 | 7:
+            print("Closed")
+        case _:
+            print("issue")
+            
+            
+            
