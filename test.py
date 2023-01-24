@@ -648,3 +648,13 @@ def testing1(x):
         res += i
     return res
 
+def search():
+    # takes a text and a word as input and passes them to a function
+    text = input()
+    word = input()
+    if word in text:
+        print("yes")
+    else:
+        print("no")
+    
+search()
